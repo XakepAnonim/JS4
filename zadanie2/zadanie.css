@@ -1,0 +1,63 @@
+/* football */
+
+.field {
+    background-color: #acdd94;
+    border: 10px solid black;
+    width: 1200px;
+    height: 650px;
+    position: relative;
+}
+
+.ball {
+    position: absolute;
+    background: url('ball.png') no-repeat center center/cover;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.ball:hover {
+    transform: scale(1.2);
+}
+
+/* card */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.card {
+    position: relative;
+    max-width: 250px;
+    padding: 15px;
+    border: 1px solid #484a47;
+    border-radius: 4px;
+    color: #3c4c2f;
+    background-color: #e4cc9c;
+    font-size: 16px;
+    line-height: 1;
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.close-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    color: #3c4c2f;
+}
+
+.hidden {
+    display: none;
+}
